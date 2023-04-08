@@ -5,3 +5,10 @@
   language: docker_image
   entry: docker.io/koalaman/shellcheck:v0.9.0
   types: [shell]
+
+- id: shellcheck-system
+  name: ShellCheck system
+  description: Static analysis tool for shell scripts (installed via CLI)
+  language: system
+  entry: shellcheck
+  types: [shell]
